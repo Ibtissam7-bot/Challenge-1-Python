@@ -1,0 +1,6 @@
+Chaine=input(" Donner moi une chaine de caractère")
+i=0
+while i==0:
+     print(Chaine[::-1])
+     i=1
+
