@@ -1,0 +1,7 @@
+import math
+x1= float(input("Donne le nombre x1"))
+x2= float(input("Donne le nombre x2"))
+y1= float(input("Donne le nombre y1"))
+y2= float(input("Donne le nombre y2"))
+Dist_eucl= math.sqrt(pow((x2-x1),2)+pow((y2-y1),2))
+print(Dist_eucl)
