@@ -1,0 +1,11 @@
+n1= float(input("Propose un nombre n1"))
+n2= float(input("Propose un nombre n2"))
+produit= n1*n2
+if n1==0 or n2==0:
+    produit = 0
+    print("Le produit est nul")
+else:
+    if produit < 0:
+        print("Le produit est négatif")
+    else :
+        print("Le produit est positif")
