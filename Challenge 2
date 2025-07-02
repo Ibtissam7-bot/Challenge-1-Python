@@ -1,0 +1,15 @@
+name = input("Donne moi ton nom: ")
+salaire = float(input("Ton salaire horaire est: "))
+nbr_h = int(input("Donne moi le nombre d'heures de travail: "))
+sal_supp = 0
+sal_total = 0
+if nbr_h > 40:
+        sal_total = salaire * 40
+        h_plus = nbr_h - 40
+        sal_supp = h_plus * 1.5 * salaire
+        print(f"Ton salaire supplémentaire est {sal_supp}")
+        sal_total = sal_total + sal_supp
+else:
+        sal_total = nbr_h * salaire
+
+
